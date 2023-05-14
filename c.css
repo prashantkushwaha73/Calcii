@@ -1,0 +1,96 @@
+
+ /* #impo{
+    
+    background-color: yellow;
+    
+} */
+.head{
+    padding-top: 15px;
+}
+.head h3{
+    text-align: center;
+    letter-spacing: 13px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#impo{
+    box-shadow: 10px 10px 10px rgb(88, 87, 87) ;
+   /* box-shadow: 5px 5px 10px rgb(228, 126, 126); */
+    width: 32vw;
+    padding: 10px;
+    border-radius:15px ;
+    
+}
+.display{
+    height: 15vh;
+    width: 28.2vw;
+    border: 0.6px solid black;
+    border-radius: 5px;
+    margin: 10px auto;
+    color: red;
+    text-align: end;
+}
+.box{
+    padding-top: 15px;
+    
+    width: 30vw;
+    margin: auto;
+}
+.row div{
+    font-size: 20px;
+    border: 1.5px solid red;
+    box-shadow: 5px 5px 10px  #888888;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 20px;
+    cursor: pointer;
+    text-align: center;
+    width: 80px;
+    height: 70px;
+}
+ /*.row div:hover{
+    background-color: black;
+    color: white;
+
+}  */
+.first{
+    height: 2vh;
+    padding: 20px;
+    font-size: 20px;
+    
+}
+.second{
+    height: 5vh;
+    padding: 20px;
+    font-size: 30px;
+    font-weight:lighter;
+    
+}
+#C{
+    transition: all 0.5s;
+    background-color: rgb(237, 190, 190) ;
+}
+#equal{
+    background-color: rgb(205, 240, 205);
+}
+#plus{
+    background-color: rgb(228, 228, 171);
+}
+#minus{
+    background-color: rgb(228, 228, 171);
+}
+#multiply{
+    background-color: rgb(228, 228, 171);
+}
+#divide{
+    background-color: rgb(228, 228, 171);
+}
+#percent{
+    background-color: rgb(228, 228, 171);
+}
+#back{
+    background-color: rgb(237, 190, 190) ;
+}
+#C-active{
+    box-shadow: none;
+}

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="c.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="c.js"></script>
+  </head>
+  <body>
+    <div class="head">
+      <h3>SIMPLE</h3>
+      <h3>CALCULATOR</h3>
+    </div>
+    <div class="container" id="impo">
+      
+        <div class="display">
+            <div class="first" id="firstd"></div>
+            <div class="second" id="secondd">NULL</div>
+        </div>
+        <div class="box">
+            <div class="row justify-content-evenly" >
+                <div class="col-2" id="C" onclick="C()">C</div>
+                <div class="col-2" id="percent" onclick="percent()">%</div>
+                <div class="col-2" id="back" onclick="back()"><i class="material-icons" style="font-size:15px; color:black;">backspace</i></div>
+                <div class="col-2" id="divide" onclick="divide()">/</div>
+            </div>
+            <div class="row justify-content-evenly" >
+              <div class="col-2" id="7" onclick="seven()">7</div>
+              <div class="col-2" id="8" onclick="eight()">8</div>
+              <div class="col-2" id="9" onclick="nine()">9</div>
+              <div class="col-2" id="multiply" onclick="multiply()">*</div>
+          </div><div class="row justify-content-evenly" >
+            <div class="col-2" id="4" onclick="four()">4</div>
+            <div class="col-2" id="5" onclick="five()">5</div>
+            <div class="col-2" id="6" onclick="six()">6</div>
+            <div class="col-2" id="minus" onclick="minus()">-</div>
+        </div>
+        <div class="row justify-content-evenly" >
+          <div class="col-2" id="1" onclick="one()">1</div>
+          <div class="col-2" id="2" onclick="two()">2</div>
+          <div class="col-2" id="3" onclick="three()">3</div>
+          <div class="col-2" id="plus" onclick="plus()">+</div>
+      </div>
+      <div class="row justify-content-evenly" >
+        <div class="col-2" id="00" onclick="zerozero()">00</div>
+        <div class="col-2" id="0" onclick="zero()">0</div>
+        <div class="col-2" id="." onclick="point()">.</div>
+        <div class="col-2" id="equal" onclick="equal()">=</div>
+    </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>
